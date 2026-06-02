@@ -5,7 +5,7 @@ void setup() {
   // Attente pour laisser le PC reconnaître le Digispark
   DigiKeyboard.delay(5000);
 
-  // Ouvrir le navigateur via la boîte "Exécuter"
+  // Ouvrir le navigateur avec le cmd
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(500);
 
